@@ -1,0 +1,208 @@
+:root {
+  --bg: #16261c;
+  --surface: #223828;
+  --surface-2: #1c2f22;
+  --chalk: #f2ede0;
+  --chalk-dim: #a9bcae;
+  --line: #4c6455;
+  --gold: #e8c547;
+  --silver: #cdd6d0;
+  --bronze: #d98a52;
+  --coral: #e0705a;
+}
+
+* { box-sizing: border-box; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .rank-badge { transition: transform 0.2s ease; }
+  tr:hover .rank-badge { transform: rotate(-4deg) scale(1.06); }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(255,255,255,0.03), transparent 55%),
+    radial-gradient(ellipse at bottom right, rgba(255,255,255,0.025), transparent 55%);
+  color: var(--chalk);
+  font-family: 'Work Sans', sans-serif;
+  min-height: 100vh;
+  padding: 48px 20px 80px;
+}
+
+.board {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.board__header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.eyebrow {
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 12px;
+  color: var(--chalk-dim);
+  margin: 0 0 10px;
+}
+
+.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: clamp(38px, 8vw, 58px);
+  margin: 0;
+  color: var(--chalk);
+  text-shadow: 0 0 18px rgba(242,237,224,0.12);
+  filter: url(#chalkWobble);
+}
+
+.squiggle {
+  width: 220px;
+  height: 14px;
+  display: block;
+  margin: 6px auto 12px;
+}
+.squiggle path {
+  fill: none;
+  stroke: var(--coral);
+  stroke-width: 3;
+  stroke-linecap: round;
+  filter: url(#chalkWobble);
+}
+
+.subtitle {
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  color: var(--chalk-dim);
+  margin: 0;
+}
+
+/* Podium / ranked list */
+.podium {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 44px;
+}
+
+.rank-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 18px;
+  position: relative;
+}
+
+.rank-row--1 { border-color: var(--gold); background: linear-gradient(90deg, rgba(232,197,71,0.14), var(--surface) 60%); }
+.rank-row--2 { border-color: var(--silver); }
+.rank-row--3 { border-color: var(--bronze); }
+
+.rank-badge {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  width: 42px;
+  height: 42px;
+  min-width: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid var(--chalk-dim);
+  filter: url(#chalkWobble);
+}
+.rank-row--1 .rank-badge { border-color: var(--gold); color: var(--gold); }
+.rank-row--2 .rank-badge { border-color: var(--silver); color: var(--silver); }
+.rank-row--3 .rank-badge { border-color: var(--bronze); color: var(--bronze); }
+
+.rank-name {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  flex: 1;
+}
+
+.rank-total {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--chalk);
+  letter-spacing: 0.02em;
+}
+
+.rank-total::after {
+  content: ' pts';
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--chalk-dim);
+}
+
+/* Matrix table */
+.matrix-wrap {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px dashed var(--line);
+}
+
+.matrix {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  background: var(--surface-2);
+}
+
+.matrix th, .matrix td {
+  padding: 12px 16px;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px dashed var(--line);
+}
+
+.matrix th {
+  color: var(--chalk-dim);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+  border-bottom: 1px solid var(--line);
+}
+
+.matrix__corner, .matrix td:first-child {
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--chalk);
+}
+
+.matrix tbody tr:last-child td { border-bottom: none; }
+.matrix tbody tr:hover { background: rgba(255,255,255,0.03); }
+
+.matrix td.leader-cell {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.board__footer {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.stamp {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 13px;
+  color: var(--chalk-dim);
+  opacity: 0.8;
+  filter: url(#chalkWobble);
+}
+
+@media (max-width: 480px) {
+  .rank-name { font-size: 15px; }
+  .rank-total { font-size: 18px; }
+  .matrix th, .matrix td { padding: 10px 10px; font-size: 12px; }
+}

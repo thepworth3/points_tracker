@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Scoreboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <filter id="chalkWobble" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.2"/>
+  </filter>
+</svg>
+
+<div class="board">
+
+  <header class="board__header">
+    <p class="eyebrow">house rules, house scores</p>
+    <h1 class="title">The Scoreboard</h1>
+    <svg class="squiggle" viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M2 10 Q 40 2, 80 10 T 160 10 T 240 10 T 320 10 T 398 10" />
+    </svg>
+    <p class="subtitle" id="categoryCount">loading categories…</p>
+  </header>
+
+  <section class="podium" id="podium" aria-label="Standings"></section>
+
+  <section class="matrix-wrap">
+    <table class="matrix" id="matrix">
+      <thead><tr><th class="matrix__corner">player</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <footer class="board__footer">
+    <span id="updatedStamp" class="stamp">— updated just now —</span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
