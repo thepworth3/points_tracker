@@ -71,9 +71,33 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex: 1;
+}
+
+.podium-row {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
   margin-bottom: 44px;
 }
 
+.side-image {
+  width: 160px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 560px) {
+  .podium-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .side-image {
+    width: 120px;
+  }
+}
 .rank-row {
   display: flex;
   align-items: center;
