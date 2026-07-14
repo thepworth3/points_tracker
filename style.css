@@ -200,7 +200,13 @@ body {
   opacity: 0.8;
   filter: url(#chalkWobble);
 }
-
+.rake-meme-image {
+  max-width: 160px;
+  height: auto;
+  display: block;
+  margin: 12px auto;
+  border-radius: 10px;
+}
 @media (max-width: 480px) {
   .rank-name { font-size: 15px; }
   .rank-total { font-size: 18px; }
