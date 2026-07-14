@@ -1,21 +1,50 @@
 {
-  "updated": "2026-07-14T22:27:10Z",
+  "updated": "2026-07-14T22:52:45Z",
   "categories": [
     "Hardwork points",
-    "making a tracker points"
+    "making a tracker points",
+    "category creation",
+    "quality of work points",
+    "criticising the collaboration points",
+    "communication points",
+    "prophecy points"
   ],
   "players": {
     "Skyler": {
       "Hardwork points": 0,
-      "making a tracker points": 0
+      "making a tracker points": 0,
+      "category creation": 5,
+      "quality of work points": 0,
+      "criticising the collaboration points": 0,
+      "communication points": -5,
+      "prophecy points": 0
     },
     "Thomas": {
       "Hardwork points": 0,
-      "making a tracker points": 1
+      "making a tracker points": 1,
+      "category creation": 0,
+      "quality of work points": -55,
+      "criticising the collaboration points": 5,
+      "communication points": 0,
+      "prophecy points": 5
     },
     "Husain": {
       "Hardwork points": 0,
-      "making a tracker points": 0
+      "making a tracker points": 0,
+      "category creation": 0,
+      "quality of work points": 0,
+      "criticising the collaboration points": 0,
+      "communication points": 0,
+      "prophecy points": 0
+    },
+    "France": {
+      "Hardwork points": 5,
+      "making a tracker points": 0,
+      "category creation": 0,
+      "quality of work points": 0,
+      "criticising the collaboration points": 0,
+      "communication points": 0,
+      "prophecy points": 0
     }
   }
 }
