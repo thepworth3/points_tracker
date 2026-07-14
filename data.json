@@ -1,10 +1,21 @@
 {
-  "updated": "2026-07-15T00:00:00Z",
-  "categories": ["Speed", "Trivia Night", "Vibes", "Chaos Bonus"],
+  "updated": "2026-07-14T22:27:10Z",
+  "categories": [
+    "Hardwork points",
+    "making a tracker points"
+  ],
   "players": {
-    "Alice": {"Speed": 12, "Trivia Night": 7, "Vibes": 3, "Chaos Bonus": 0},
-    "Bob": {"Speed": 5, "Trivia Night": 15, "Vibes": 9, "Chaos Bonus": 0},
-    "Charlie": {"Speed": 8, "Trivia Night": 2, "Vibes": 14, "Chaos Bonus": 0},
-    "Dana": {"Speed": 0, "Trivia Night": 0, "Vibes": 0, "Chaos Bonus": 6}
+    "Skyler": {
+      "Hardwork points": 0,
+      "making a tracker points": 0
+    },
+    "Thomas": {
+      "Hardwork points": 0,
+      "making a tracker points": 1
+    },
+    "Husain": {
+      "Hardwork points": 0,
+      "making a tracker points": 0
+    }
   }
 }
