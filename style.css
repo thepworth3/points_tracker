@@ -58,19 +58,6 @@ body {
   filter: url(#chalkWobble);
 }
 
-.squiggle {
-  width: 220px;
-  height: 14px;
-  display: block;
-  margin: 6px auto 12px;
-}
-.squiggle path {
-  fill: none;
-  stroke: var(--coral);
-  stroke-width: 3;
-  stroke-linecap: round;
-  filter: url(#chalkWobble);
-}
 
 .subtitle {
   font-family: 'Space Mono', monospace;
