@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T13:06:35Z",
+  "updated": "2026-07-15T13:51:52Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -9,7 +9,8 @@
     "communication points",
     "prophecy points",
     "learned about points, points",
-    "green light points"
+    "green light points",
+    "reluctant agreement points"
   ],
   "players": {
     "Skyler": {
@@ -21,7 +22,8 @@
       "communication points": -5,
       "prophecy points": 0,
       "learned about points, points": 0,
-      "green light points": 0
+      "green light points": 0,
+      "reluctant agreement points": 1
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -32,7 +34,8 @@
       "communication points": 0,
       "prophecy points": 5,
       "learned about points, points": 0,
-      "green light points": 5
+      "green light points": 5,
+      "reluctant agreement points": 0
     },
     "Husain": {
       "Hardwork points": 0,
@@ -43,7 +46,8 @@
       "communication points": 0,
       "prophecy points": 0,
       "learned about points, points": 5,
-      "green light points": 0
+      "green light points": 0,
+      "reluctant agreement points": 0
     },
     "France": {
       "Hardwork points": 5,
@@ -54,7 +58,8 @@
       "communication points": 0,
       "prophecy points": 0,
       "learned about points, points": 0,
-      "green light points": 0
+      "green light points": 0,
+      "reluctant agreement points": 0
     }
   }
 }
