@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T12:35:33Z",
+  "updated": "2026-07-16T15:24:36Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -19,7 +19,9 @@
     "memory points",
     "skyler points",
     "bingo points",
-    "C-suite points"
+    "C-suite points",
+    "typo points",
+    "opportunity creation points"
   ],
   "players": {
     "Skyler": {
@@ -41,7 +43,9 @@
       "memory points": -5,
       "skyler points": 0,
       "bingo points": 0,
-      "C-suite points": 0
+      "C-suite points": 0,
+      "typo points": 5,
+      "opportunity creation points": 5
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -62,7 +66,9 @@
       "memory points": 0,
       "skyler points": 5,
       "bingo points": 5,
-      "C-suite points": 5
+      "C-suite points": 5,
+      "typo points": 0,
+      "opportunity creation points": 0
     },
     "Husain": {
       "Hardwork points": 0,
@@ -83,7 +89,9 @@
       "memory points": 0,
       "skyler points": 0,
       "bingo points": 0,
-      "C-suite points": 0
+      "C-suite points": 0,
+      "typo points": 0,
+      "opportunity creation points": 0
     },
     "France": {
       "Hardwork points": 5,
@@ -104,7 +112,9 @@
       "memory points": 0,
       "skyler points": 0,
       "bingo points": 0,
-      "C-suite points": 0
+      "C-suite points": 0,
+      "typo points": 0,
+      "opportunity creation points": 0
     }
   }
 }
