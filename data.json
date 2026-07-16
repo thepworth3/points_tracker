@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T13:53:16Z",
+  "updated": "2026-07-16T11:50:14Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -11,7 +11,14 @@
     "learned about points, points",
     "green light points",
     "reluctant agreement points",
-    "experience points"
+    "experience points",
+    "promise points",
+    "criticizing the points points",
+    "unnecessary apology points",
+    "lie points",
+    "memory points",
+    "skyler points",
+    "bingo points"
   ],
   "players": {
     "Skyler": {
@@ -25,7 +32,14 @@
       "learned about points, points": 0,
       "green light points": 0,
       "reluctant agreement points": 1,
-      "experience points": 0
+      "experience points": 0,
+      "promise points": 5,
+      "criticizing the points points": -1000,
+      "unnecessary apology points": 5,
+      "lie points": 0,
+      "memory points": -5,
+      "skyler points": 0,
+      "bingo points": 0
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -38,7 +52,14 @@
       "learned about points, points": 0,
       "green light points": 5,
       "reluctant agreement points": 0,
-      "experience points": 1
+      "experience points": 1,
+      "promise points": 0,
+      "criticizing the points points": 0,
+      "unnecessary apology points": 0,
+      "lie points": 1,
+      "memory points": 0,
+      "skyler points": 5,
+      "bingo points": 5
     },
     "Husain": {
       "Hardwork points": 0,
@@ -51,7 +72,14 @@
       "learned about points, points": 5,
       "green light points": 0,
       "reluctant agreement points": 0,
-      "experience points": 0
+      "experience points": 0,
+      "promise points": 0,
+      "criticizing the points points": 0,
+      "unnecessary apology points": 0,
+      "lie points": 0,
+      "memory points": 0,
+      "skyler points": 0,
+      "bingo points": 0
     },
     "France": {
       "Hardwork points": 5,
@@ -64,7 +92,14 @@
       "learned about points, points": 0,
       "green light points": 0,
       "reluctant agreement points": 0,
-      "experience points": 0
+      "experience points": 0,
+      "promise points": 0,
+      "criticizing the points points": 0,
+      "unnecessary apology points": 0,
+      "lie points": 0,
+      "memory points": 0,
+      "skyler points": 0,
+      "bingo points": 0
     }
   }
 }
