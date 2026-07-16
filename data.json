@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T15:24:36Z",
+  "updated": "2026-07-16T16:34:05Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -21,7 +21,8 @@
     "bingo points",
     "C-suite points",
     "typo points",
-    "opportunity creation points"
+    "opportunity creation points",
+    "overinterpretation points"
   ],
   "players": {
     "Skyler": {
@@ -45,7 +46,8 @@
       "bingo points": 0,
       "C-suite points": 0,
       "typo points": 5,
-      "opportunity creation points": 5
+      "opportunity creation points": 5,
+      "overinterpretation points": 0
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -68,7 +70,8 @@
       "bingo points": 5,
       "C-suite points": 5,
       "typo points": 0,
-      "opportunity creation points": 0
+      "opportunity creation points": 0,
+      "overinterpretation points": 0
     },
     "Husain": {
       "Hardwork points": 0,
@@ -91,7 +94,8 @@
       "bingo points": 0,
       "C-suite points": 0,
       "typo points": 0,
-      "opportunity creation points": 0
+      "opportunity creation points": 0,
+      "overinterpretation points": -5
     },
     "France": {
       "Hardwork points": 5,
@@ -114,7 +118,8 @@
       "bingo points": 0,
       "C-suite points": 0,
       "typo points": 0,
-      "opportunity creation points": 0
+      "opportunity creation points": 0,
+      "overinterpretation points": 0
     }
   }
 }
