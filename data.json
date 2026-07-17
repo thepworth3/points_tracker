@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T13:07:08Z",
+  "updated": "2026-07-17T13:11:58Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -24,7 +24,9 @@
     "opportunity creation points",
     "overinterpretation points",
     "typing while old points",
-    "embarassing excuse points"
+    "embarassing excuse points",
+    "dropbox points",
+    "happily unaware points"
   ],
   "players": {
     "Skyler": {
@@ -51,7 +53,9 @@
       "opportunity creation points": 5,
       "overinterpretation points": 0,
       "typing while old points": 5,
-      "embarassing excuse points": 5
+      "embarassing excuse points": 5,
+      "dropbox points": 5,
+      "happily unaware points": 0
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -77,7 +81,9 @@
       "opportunity creation points": 0,
       "overinterpretation points": 0,
       "typing while old points": 0,
-      "embarassing excuse points": 0
+      "embarassing excuse points": 0,
+      "dropbox points": 0,
+      "happily unaware points": 0
     },
     "Husain": {
       "Hardwork points": 0,
@@ -103,7 +109,9 @@
       "opportunity creation points": 0,
       "overinterpretation points": -5,
       "typing while old points": 0,
-      "embarassing excuse points": 0
+      "embarassing excuse points": 0,
+      "dropbox points": 0,
+      "happily unaware points": 0
     },
     "France": {
       "Hardwork points": 5,
@@ -129,7 +137,9 @@
       "opportunity creation points": 0,
       "overinterpretation points": 0,
       "typing while old points": 0,
-      "embarassing excuse points": 0
+      "embarassing excuse points": 0,
+      "dropbox points": 0,
+      "happily unaware points": 0
     },
     "Peter": {
       "Hardwork points": 0,
@@ -155,7 +165,37 @@
       "opportunity creation points": 0,
       "overinterpretation points": 0,
       "typing while old points": 0,
-      "embarassing excuse points": 0
+      "embarassing excuse points": 0,
+      "dropbox points": 0,
+      "happily unaware points": 0
+    },
+    "Luca": {
+      "Hardwork points": 0,
+      "making a tracker points": 0,
+      "category creation": 0,
+      "quality of work points": 0,
+      "criticising the collaboration points": 0,
+      "communication points": 0,
+      "prophecy points": 0,
+      "learned about points, points": 0,
+      "green light points": 0,
+      "reluctant agreement points": 0,
+      "experience points": 0,
+      "promise points": 0,
+      "criticizing the points points": 0,
+      "unnecessary apology points": 0,
+      "lie points": 0,
+      "memory points": 0,
+      "skyler points": 0,
+      "bingo points": 0,
+      "C-suite points": 0,
+      "typo points": 0,
+      "opportunity creation points": 0,
+      "overinterpretation points": 0,
+      "typing while old points": 0,
+      "embarassing excuse points": 0,
+      "dropbox points": 0,
+      "happily unaware points": 5
     }
   }
 }
