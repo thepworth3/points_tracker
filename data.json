@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T16:34:05Z",
+  "updated": "2026-07-17T10:03:38Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -22,7 +22,9 @@
     "C-suite points",
     "typo points",
     "opportunity creation points",
-    "overinterpretation points"
+    "overinterpretation points",
+    "typing while old points",
+    "embarassing excuse points"
   ],
   "players": {
     "Skyler": {
@@ -31,7 +33,7 @@
       "category creation": 5,
       "quality of work points": 0,
       "criticising the collaboration points": 0,
-      "communication points": -5,
+      "communication points": -10,
       "prophecy points": 0,
       "learned about points, points": 0,
       "green light points": 0,
@@ -47,7 +49,9 @@
       "C-suite points": 0,
       "typo points": 5,
       "opportunity creation points": 5,
-      "overinterpretation points": 0
+      "overinterpretation points": 0,
+      "typing while old points": 5,
+      "embarassing excuse points": 5
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -71,7 +75,9 @@
       "C-suite points": 5,
       "typo points": 0,
       "opportunity creation points": 0,
-      "overinterpretation points": 0
+      "overinterpretation points": 0,
+      "typing while old points": 0,
+      "embarassing excuse points": 0
     },
     "Husain": {
       "Hardwork points": 0,
@@ -95,7 +101,9 @@
       "C-suite points": 0,
       "typo points": 0,
       "opportunity creation points": 0,
-      "overinterpretation points": -5
+      "overinterpretation points": -5,
+      "typing while old points": 0,
+      "embarassing excuse points": 0
     },
     "France": {
       "Hardwork points": 5,
@@ -119,7 +127,9 @@
       "C-suite points": 0,
       "typo points": 0,
       "opportunity creation points": 0,
-      "overinterpretation points": 0
+      "overinterpretation points": 0,
+      "typing while old points": 0,
+      "embarassing excuse points": 0
     }
   }
 }
