@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T13:20:55Z",
+  "updated": "2026-07-17T14:16:55Z",
   "categories": [
     "Hardwork points",
     "making a tracker points",
@@ -27,7 +27,8 @@
     "embarassing excuse points",
     "dropbox points",
     "happily unaware points",
-    "redefining work points"
+    "redefining work points",
+    "hacking the points points"
   ],
   "players": {
     "Skyler": {
@@ -57,7 +58,8 @@
       "embarassing excuse points": 5,
       "dropbox points": 5,
       "happily unaware points": 0,
-      "redefining work points": 0
+      "redefining work points": 0,
+      "hacking the points points": 1000000
     },
     "Thomas": {
       "Hardwork points": 0,
@@ -86,7 +88,8 @@
       "embarassing excuse points": 0,
       "dropbox points": 0,
       "happily unaware points": 0,
-      "redefining work points": -50
+      "redefining work points": -50,
+      "hacking the points points": 0
     },
     "Husain": {
       "Hardwork points": 0,
@@ -115,7 +118,8 @@
       "embarassing excuse points": 0,
       "dropbox points": 0,
       "happily unaware points": 0,
-      "redefining work points": 0
+      "redefining work points": 0,
+      "hacking the points points": 0
     },
     "France": {
       "Hardwork points": 5,
@@ -144,7 +148,8 @@
       "embarassing excuse points": 0,
       "dropbox points": 0,
       "happily unaware points": 0,
-      "redefining work points": 0
+      "redefining work points": 0,
+      "hacking the points points": 0
     },
     "Peter": {
       "Hardwork points": 0,
@@ -173,7 +178,8 @@
       "embarassing excuse points": 0,
       "dropbox points": 0,
       "happily unaware points": 0,
-      "redefining work points": 0
+      "redefining work points": 0,
+      "hacking the points points": 0
     },
     "Luca": {
       "Hardwork points": 0,
@@ -202,7 +208,8 @@
       "embarassing excuse points": 0,
       "dropbox points": 0,
       "happily unaware points": 5,
-      "redefining work points": 0
+      "redefining work points": 0,
+      "hacking the points points": 0
     }
   }
 }
